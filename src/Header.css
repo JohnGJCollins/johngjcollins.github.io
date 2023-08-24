@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Helvetica Neue Bold";
+    src: url(../public/Helvetica\ Neue/Helvetica\ Neue\ Condensed\ Bold/Helvetica\ Neue\ Condensed\ Bold.ttf);
+}
+
+#header {
+    height: 10vh;
+    width: 100vw;
+    margin: 0px;
+    vertical-align: middle;
+    background-color: var(--bg-color);
+}
+
+#name-wrapper {
+    width: 100vw;
+    height: 60%;
+    margin: 0px;
+    font-size: 6vh;
+    font-family: "Helvetica Neue Bold";
+    line-height: 6vh;
+    text-align: center;
+    color: white;
+}
+
+#socials-wrapper {
+    width: 100vw;
+    height: 40%;
+    display: table;
+    text-align: center;
+}
+
+.socials-buffer {
+    width: 30vw;
+    height: 100%;
+}
+
+#socials-wrapper > .link-wrapper {
+    width: auto;
+    height: 4vh;
+    display: table-cell;
+    vertical-align: middle;
+}

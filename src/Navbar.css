@@ -1,0 +1,23 @@
+:root {
+    --nav-height: 5vh;
+}
+
+#nav {
+    width: 100vw;
+    height: var(--nav-height);
+    background-color: orange;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#nav.stuck {
+    position: fixed;
+    top: 0px;
+}
+
+#nav > .link-wrapper {
+    height: var(--nav-height);
+    vertical-align: middle;
+    line-height: var(--nav-height);
+}
