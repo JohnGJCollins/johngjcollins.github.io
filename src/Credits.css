@@ -1,0 +1,14 @@
+#credits-table {
+    width: 100%;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 95vh;
+    text-indent: 0px;
+}
+
+.credit-entry {
+    padding: 0px;
+}
+
+.credit-entry > a:hover {
+}

@@ -4,39 +4,45 @@
 }
 
 #header {
-    height: 10vh;
+    height: 12vh;
     width: 100vw;
     margin: 0px;
+    padding: 0px;
     vertical-align: middle;
     background-color: var(--bg-color);
+    color: white;
 }
 
 #name-wrapper {
     width: 100vw;
-    height: 60%;
+    height: 8vh;
     margin: 0px;
     font-size: 6vh;
     font-family: "Helvetica Neue Bold";
-    line-height: 6vh;
+    line-height: 8vh;
     text-align: center;
-    color: white;
 }
 
 #socials-wrapper {
     width: 100vw;
-    height: 40%;
+    height: 4vh;
     display: table;
     text-align: center;
 }
 
 .socials-buffer {
-    width: 30vw;
+    width: 20vw;
     height: 100%;
 }
 
 #socials-wrapper > .link-wrapper {
-    width: auto;
+    width: 30vw;
     height: 4vh;
     display: table-cell;
     vertical-align: middle;
+}
+
+a > img {
+    width: 3vh;
+    height: 3vh;
 }

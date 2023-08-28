@@ -1,0 +1,33 @@
+.center-wrapper.plist {
+    width: 90vw;
+}
+
+.center-wrapper.plist.thin {
+    width: 75vw;
+}
+
+#project-table {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: grid;
+    grid-template-columns: repeat(2, 45vw);
+    text-indent: 0px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 5vw;
+}
+
+#project-table.thin {
+    grid-template-columns: repeat(3, 25vw);
+    font-size: 1.2vw;
+}
+
+.project-image {
+    width: 35vw;
+    height: 30vw;
+}
+
+.project-image.thin {
+    width: 20vw;
+    height: 18.8vw;
+}

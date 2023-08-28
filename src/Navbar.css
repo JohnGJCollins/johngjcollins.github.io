@@ -2,22 +2,55 @@
     --nav-height: 5vh;
 }
 
-#nav {
+.separator {
     width: 100vw;
     height: var(--nav-height);
-    background-color: orange;
-    display: table;
+    background-color: #b22727;
+    color: white;
     text-align: center;
     vertical-align: middle;
+    display: flex;
 }
 
-#nav.stuck {
+.separator.stuck {
     position: fixed;
     top: 0px;
 }
 
-#nav > .link-wrapper {
+#link-table {
+    width: 40vw;
+    display: table;
+    table-layout: fixed;
+}
+
+#link-table.vertical {
+    width: 100vw;
+}
+
+#link-table > .link-wrapper {
+    width: auto;
     height: var(--nav-height);
+    display: table-cell;
     vertical-align: middle;
     line-height: var(--nav-height);
+}
+
+.link-wrapper > a {
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+#nav-buffer {
+    width: 30vw;
+    height: 100%;
+}
+
+#nav-buffer.disabled {
+    width: 0px;
+}
+
+.disabled {
+    visibility: hidden;
 }

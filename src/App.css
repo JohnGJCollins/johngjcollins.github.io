@@ -8,9 +8,30 @@
 
 body {
   font-family: "Helvetica Neue";
+  font-size: 2vh;
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
+  background-color: #f5efe7;
+}
+
+#root {
+  display: table;
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+  border-bottom: dotted black 0.2vh;
+}
+
+a:hover {
+  color: blue;
+  border-bottom: none;
+}
+
+.image-link {
+  border-bottom: none;
 }
 
 @font-face {
@@ -25,7 +46,15 @@ html {
 }
 }
 
-body {
-  background-color: white;
-  height: 150vh;
+.center-wrapper {
+  width: 80vw;
+  height: 100%;
+  margin: auto;
+  text-align: left;
+  text-indent: 5vh;
+}
+
+.center-wrapper.thin {
+  width: 60vw;
+  text-indent: 10vh;
 }
